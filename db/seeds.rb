@@ -23,3 +23,15 @@ a3 = Album.create(name: 'Ten')
 s1 = Song.create(name: 'Shake It Off', price: 0.99)
 s2 = Song.create(name: 'Im a Ruin', price: 0.99)
 s3 = Song.create(name: 'Out of the Woods', price: 0.99)
+
+a1.songs << s1
+a1.songs << s2
+a1.songs << s3
+
+a1.genres << g1
+a1.genres << g2
+a1.genres << g3
+
+
+
+#o1.order_products.create(product_id: p1.id)

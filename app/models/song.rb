@@ -1,4 +1,4 @@
 class Song < ActiveRecord::Base
-  has_many :AlbumSong
-  has_many :Album
+  has_many :album_songs
+  has_many :albums
 end
